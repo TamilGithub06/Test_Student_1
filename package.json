@@ -1,0 +1,14 @@
+{
+  "name": "student-portal",
+  "version": "1.0.0",
+  "description": "Student Login & Signup Form Application",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "build": "zip -r deploy.zip . -x 'node_modules/*' '.git/*' '*.log' && echo 'Build complete!'",
+    "clean": "rm -f deploy.zip"
+  },
+  "keywords": ["student", "authentication", "login", "signup"],
+  "author": "Student Developer",
+  "license": "MIT"
+}
